@@ -1,3 +1,5 @@
+
+
 main {
   margin-top: 60px;
 }
@@ -36,6 +38,8 @@ main p {
   width: 100%;
 }
 
+/* Groups & Items (Mobile First) */
+
 .group {
   display: flex;
   flex-direction: column;
@@ -43,7 +47,7 @@ main p {
 }
 
 .item {
-  flex: 2;
+  flex: 1;
   margin: 10px;
 }
 
@@ -53,6 +57,7 @@ main p {
 }
 
 /* Groups & Items (desktop) */
+
 @media all and (min-width: 800px) {
   section {
     padding: 0 10%;
@@ -62,4 +67,3 @@ main p {
     flex-direction: row;
   }
 }
-
