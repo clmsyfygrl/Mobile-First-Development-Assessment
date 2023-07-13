@@ -32,6 +32,10 @@ main p {
   background-color: #775f47;
 }
 
+.group img {
+  width: 100%;
+}
+
 .group {
   display: flex;
   flex-direction: column;
